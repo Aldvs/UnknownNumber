@@ -8,7 +8,7 @@
 
 var isDoNextRound: Bool = false
 
-
+print ("Another print statement!")
 repeat {
     
     doNextRound()
