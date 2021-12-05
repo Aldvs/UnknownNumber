@@ -47,27 +47,4 @@ func doNextRound () {
         }
     } while !isWin
 }
-/*
-import
-print("OTGADAI NUMBER")
-let randomNumber = UInt8.random(in: 1...250)
-  // flag to win
-var isWin = false
-
-repeat {
-    //попытка преобразования приведенного значения к типу UInt8
-    guard let userNumber = UInt8(readLine() ?? "") else {
-        print("Вы ввели некоректное значение")
-        continue
-    }
-    // проверка введенного числа
-    if userNumber<randomNumber {
-        print ("more")
-    } else if userNumber>randomNumber{
-        print ("less")
-    } else {
-        print ("WIN")
-        isWin=true
-    }
-} while !isWin
-*/
+print ("Cool")
