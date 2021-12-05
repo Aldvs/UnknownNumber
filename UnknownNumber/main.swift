@@ -9,6 +9,7 @@
 var isDoNextRound: Bool = false
 
 print ("Another print statement!")
+print ("Hello, world!")
 repeat {
     
     doNextRound()
